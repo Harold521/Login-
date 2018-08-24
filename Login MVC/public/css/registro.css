@@ -1,0 +1,107 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/*----------------HEAD----------------*/
+body{font-family: arial;
+background-image: url('http://localhost/loginscript/public/images/fondo2.jpeg');
+}
+
+
+.formularios{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.titulo1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.titulo2{
+    background:#10A3D6  ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid #2C3A5F;
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+.input-50{
+    width: 48%;
+    margin-left: 1%;
+}
+.input-100{
+    width: 98%;
+    margin-left: 1%;
+
+}
+
+.input-for, .select-for{
+    margin-bottom: 35px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border:1px solid gray;
+}
+.btn{
+    background: #2C3A5F;
+    color: #fff;
+    margin: auto;
+    margin-top: 2%;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ubicacion{
+    width: 100%;
+    margin-top: 4%;
+    border:2px solid  #DA5737;
+}
+
+}
+.btn:active{
+    transform: scale(1.05); 
+}
+
+.contacto{
+    width: 100%;
+    margin-top: 4%;
+    border:2px solid #A174C7; 
+}
+.email{
+    margin-top: 5%;
+}
+
+
+
+.link{
+    width: 100%;
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+.academico{
+    width: 100%;
+    margin-top: 4%;
+    border:2px solid  #20909F;  
+}
+.datos{
+    width: 100%;
+    margin-top: 4%;
+    border:2px solid  #DA9537;
+
+
+

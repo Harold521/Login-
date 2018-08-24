@@ -1,0 +1,81 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/*----------------HEAD----------------*/
+body{font-family: arial;
+background-image: url('http://localhost/loginscript/public/images/fondo2.jpeg');
+}
+
+
+/*-----formularios----*/
+
+.formularios{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+}
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap:wrap;
+    }
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.subtitulo{
+    background:#033769  ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid #2C3A5F;
+
+    
+}
+
+}
+.recordar{
+margin: 10px 10px 0 0;
+color: #2C3A5F;
+}
+
+.input-for, .select-for{
+    margin-bottom: 35px;
+    padding: 15px;
+    font-size: 16px;
+    border:1px solid #D5D5D5;
+}
+
+.btn-login{
+    background: #2C3A5F;
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px 40px;
+    margin-left: 20%;
+   
+    
+}
+
+.btn-login:active{
+    transform: scale(1.05); 
+}
+
+
+.p_recordar{
+    color: #2C3A5F;
+    font-size: 12px;
+
+
+

@@ -1,0 +1,98 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+footer{
+    background-color: #1C2833;
+    margin-top: 10%;
+}
+.div-foot{
+display:inline-block; width:100%;  height: 100px;}
+.div-foot-2{
+    display: inline-block ; width: 40%; height: 100px;
+}
+.div-foot-3{
+    background-color: #17202A  ;
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.div-foot-3 p{
+    color:#fff;
+    padding:10px 0 10px;
+}
+.div-foot ul{
+display: inline-block;
+padding-left: 30px;
+color: #fff;
+padding-top: 30px;
+list-style-type: none;
+}
+.div-foot li{
+    padding: 10px 0 10px 0 ;
+}
+.div-foot h2 a{
+    color:#E67E22   ;
+    text-decoration: none;
+     transition: 0.4s;
+}
+.div-foot h2 a:hover{
+    text-decoration: overline;
+
+}
+.div-foot li a{ 
+color:#fff;
+text-decoration: none;
+ transition: 0.4s;
+}
+.div-foot li a:hover{
+    text-decoration: underline;
+}
+.logotipo{
+
+width:inherit;
+height: inherit;
+}
+.div-foot-0{
+    width: 100%;
+    height: 290px;
+    background-color:#2C3E50 ;
+}
+.div-foot-2 img{
+    transition: 0.3s;
+    width:8%;}
+.div-foot-2 img:hover{
+    opacity: 0.5;
+}
+.div-foot-2 h3{
+    color:#EAECEE     ;
+    text-decoration: none;
+     transition: 0.4s;
+
+}
+
+@media screen and (max-width: 714px) and (min-width: 680px){
+.div-foot{
+width: 50%;
+margin-left: 25%;
+}
+}
+@media screen and (max-width: 679px) and (min-width: 601px){
+.div-foot{
+width: 50%;
+margin-left: 20%;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+.div-foot{
+    width: 50%;
+    margin-left: 20%;
+}
+
+}

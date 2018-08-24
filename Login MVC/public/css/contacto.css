@@ -1,0 +1,72 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+body{font-family: arial;
+}
+
+
+
+.formularios{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.subtitulo{
+    background:#152F38  ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid #152F38;
+}
+
+
+.mensaje{
+    width: 100%;
+    height: 150px;
+}
+
+
+}
+
+.input-for, .select-for{
+    margin-bottom: 33px;
+    padding: 12px;
+    font-size: 13px;
+    
+}
+.btn{
+    background: #35184B;
+    color: #fff;
+    margin: auto;
+    margin-top: 2%;
+    padding: 10px 40px;
+    font-size: 17px;
+}
+.btn:active{
+    transform: scale(1.05); 
+
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+
